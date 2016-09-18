@@ -1,0 +1,11 @@
+{
+  "name": "ZCE",
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "Classes/"
+    },
+    "files": [
+      "Lessons/basics.php"
+    ]
+  }
+}
