@@ -9,6 +9,11 @@ echo "<pre>";
 //Basics\tags();
 //Basics\comments();
 //Basics\arithmeticOperators();
-Basics\stringOperators();
+//Basics\comparisonOperators();
+//Basics\stringOperators();
+Basics\executionOperators();
+//Basics\variablesNaming();
+//Basics\variablesReferencing();
+//Basics\variablesInitializing();
 
 echo "</pre>";
