@@ -15,6 +15,8 @@ echo "<pre>";
 //Basics\variablesNaming();
 //Basics\variablesReferencing();
 //Basics\variablesInitializing();
-Basics\conditions();
+//Basics\conditions();
+Basics\otherConstructs();
+//Basics\constants();
 
 echo "</pre>";
