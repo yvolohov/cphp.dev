@@ -11,9 +11,10 @@ echo "<pre>";
 //Basics\arithmeticOperators();
 //Basics\comparisonOperators();
 //Basics\stringOperators();
-Basics\executionOperators();
+//Basics\executionOperators();
 //Basics\variablesNaming();
 //Basics\variablesReferencing();
 //Basics\variablesInitializing();
+Basics\conditions();
 
 echo "</pre>";
