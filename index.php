@@ -9,6 +9,7 @@ echo "<pre>";
 //Basics\tags();
 //Basics\comments();
 //Basics\arithmeticOperators();
+//Basics\assignmentOperators();
 //Basics\comparisonOperators();
 //Basics\stringOperators();
 //Basics\executionOperators();
@@ -16,7 +17,8 @@ echo "<pre>";
 //Basics\variablesReferencing();
 //Basics\variablesInitializing();
 //Basics\conditions();
-Basics\otherConstructs();
+//Basics\otherConstructs();
 //Basics\constants();
+//Basics\magicConstants();
 
 echo "</pre>";

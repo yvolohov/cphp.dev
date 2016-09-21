@@ -5,7 +5,8 @@
       "Classes\\": "Classes/"
     },
     "files": [
-      "Lessons/basics.php"
+      "Lessons/basics.php",
+      "Lessons/oop.php"
     ]
   }
 }
