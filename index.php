@@ -2,6 +2,7 @@
 require_once __DIR__.'/vendor/autoload.php';
 
 use Lessons\Basics as Basics;
+use Lessons\OOP as OOP;
 
 echo "<pre>";
 
@@ -20,5 +21,9 @@ echo "<pre>";
 //Basics\otherConstructs();
 //Basics\constants();
 //Basics\magicConstants();
+
+//OOP\creatingClassesAndInstantiation();
+//OOP\inheritance();
+OOP\abstractClasses();
 
 echo "</pre>";
