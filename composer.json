@@ -1,9 +1,9 @@
 {
   "name": "ZCE",
   "autoload": {
-    "psr-4": {
-      "Classes\\": "Classes/"
-    },
+    "classmap": [
+      "Classes/"
+    ],
     "files": [
       "Lessons/basics.php",
       "Lessons/oop.php"

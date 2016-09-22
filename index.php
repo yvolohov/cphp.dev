@@ -24,6 +24,7 @@ echo "<pre>";
 
 //OOP\creatingClassesAndInstantiation();
 //OOP\inheritance();
-OOP\abstractClasses();
+//OOP\abstractClasses();
+OOP\interfaces();
 
 echo "</pre>";

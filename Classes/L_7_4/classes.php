@@ -2,6 +2,26 @@
 
 namespace Classes\L_7_4;
 
+/* абстрактный класс может не иметь абстрактных методов */
+abstract class Dog
+{
+    public function bark()
+    {
+        print("Bark!\n");
+    }
+}
+
+abstract class Poodle extends Dog
+{
+    /* Если внутри класса есть хоть один абстракный метод,
+     * класс тоже должен быть объявлен как абстрактный. Однако
+     * это односторонняя зависимость. Т.е. могут существовать
+     * абстрактные классы без абстрактных методов */
+    abstract public function run();
+
+    abstract protected function sleep();
+}
+
 class EnglishPoodle extends Poodle
 {
     public function run() {

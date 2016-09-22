@@ -5,6 +5,7 @@ namespace Lessons\OOP;
 use Classes\L_7_2;
 use Classes\L_7_3;
 use Classes\L_7_4;
+use Classes\L_7_5;
 
 /* 7.2 Класс это шаблон для создания объекта, который описывает характеристики объекта, его константы,
  * свойства и методы. Нельзя создавать объекты прежде чем был описан класс. */
@@ -54,4 +55,14 @@ function abstractClasses()
     $poppy->bark();
     $poppy->run();
     $poppy->sleep();
+}
+
+/* 7.5 Интерфейс подобен абстрактному классу, в котором есть только абстрактные методы
+ * и не может быть обычных методов. */
+function interfaces()
+{
+    $boatplane = new L_7_5\Boatplane();
+    $boatplane->fill();
+    $boatplane->takeoff();
+    $boatplane::doSomething();
 }
