@@ -1,12 +1,27 @@
 {
   "name": "ZCE",
   "autoload": {
-    "classmap": [
-      "Classes/"
-    ],
-    "files": [
-      "Lessons/basics.php",
-      "Lessons/oop.php"
+    "files" : [
+      "Lessons/L_01_01.php",
+      "Lessons/L_01_02.php",
+      "Lessons/L_01_03.php",
+      "Lessons/L_01_04.php",
+      "Lessons/L_01_06.php",
+      "Lessons/L_01_07.php",
+      "Lessons/L_01_08.php",
+      "Lessons/L_01_11.php",
+      "Lessons/L_01_13.php",
+      "Lessons/L_01_14.php",
+      "Lessons/L_01_15.php",
+      "Lessons/L_01_16.php",
+      "Lessons/L_01_20.php",
+      "Lessons/L_01_21_TO_23.php",
+      "Lessons/L_01_24.php",
+      "Lessons/L_07_02.php",
+      "Lessons/L_07_03.php",
+      "Lessons/L_07_04.php",
+      "Lessons/L_07_05.php",
+      "Lessons/L_07_07.php"
     ]
   }
 }

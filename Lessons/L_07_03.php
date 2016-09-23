@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\L_7_3;
+namespace Lessons\L_07_03;
 
 class Dog
 {
@@ -55,4 +55,14 @@ class Poodle extends Dog
     {
         print("OVR: I'M PLAYING!\n");
     }
+}
+
+/* 7.3 Наследование - создание классов на основе других классов. При этом класс-потомок получает
+ * свойства и методы класса-предка. */
+function inheritance()
+{
+    $poodle = new Poodle();
+    $poodle->bark();
+    $poodle->run();
+    $poodle->play('');
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\L_7_5;
+namespace Lessons\L_07_05;
 
 /* Мы определяем интерфейс с помощью соответствующего ключевого слова interface */
 interface Boat
@@ -57,4 +57,14 @@ class Boatplane implements Boat, Plane
     public function fill() {echo "I fill the boatplane !!!\n";}
 
     public static function doSomething() {echo "I'm doing something !!!\n";}
+}
+
+/* 7.5 Интерфейс подобен абстрактному классу, в котором есть только абстрактные методы
+ * и не может быть обычных методов. */
+function interfaces()
+{
+    $boatplane = new Boatplane();
+    $boatplane->fill();
+    $boatplane->takeoff();
+    $boatplane::doSomething();
 }
