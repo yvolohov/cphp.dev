@@ -2,38 +2,75 @@
 
 namespace Lessons\L_07_07;
 
-class DogTag
-{
-    public $words;
-}
-
-class DogOne
-{
-    public $name;
-    public $dogTag;
-
-    /* конструктор это функция, которая вызывается при
-     * создании экземпляра класса и обычно используется
-     * для инициализации свойств класса */
-    public function __construct($dogName) {
-        print "создание собаки: {$dogName} \n";
-        $this->name = $dogName;
-        $this->dogTag = new DogTag();
-        $this->dogTag->words = "Меня зовут {$dogName}. Если вы нашли меня, позвоните 555-1234 \n";
-    }
-
-    public function bark() {
-        print "Гав!\n";
-    }
-}
-
 /* 7.7 Конструктор это функция, которая вызывается при создании экземпляра класса и обычно используется
  * для инициализации свойств класса. Деструктор это функция, которая вызывается при
  * удалении экземпляра класса и обычно используется для освобождения памяти занятой ресурсами,
  * разрыва соединения с БД и т.д. */
 function constructorsAndDestructors()
 {
-    $poppy = new DogOne("Poppy");
-    echo $poppy->dogTag->words;
-    $poppy->bark();
+    /* Пример демонстрирует, что при создании
+     * объекта автоматически вызывается только
+     * первый обнаруженный в иерархии конструктор,
+     * самого низкого уровня (здесь это конструктор EnglishPoodle).
+     * Если нужно вызывать конструкторы родительских
+     * классов, нужно прописывать их вызовы вручную.
+     * При удалении объекта аналогично вызывается первый
+     * обнаруженный деструктор а вызовы деструткоров
+     * родительских классов могут быть прописаны вручную. */
+    $poppy = new EnglishPoodle('Poppy');
+    unset($poppy);
+}
+
+
+class Dog {
+
+    /* При создании экземпляра EnglishPoodle этот конструктор не будет вызван вовсе */
+    public function __construct($name, $age, $color) {
+        echo "creating " . __CLASS__ . "\n";
+    }
+
+    /* При удалении экземпляра EnglishPoodle этот деструктор не будет вызван вовсе */
+    public function __destruct() {
+        echo "deleting " . __CLASS__. "\n";
+    }
+}
+
+class Poodle extends Dog {
+
+    /* При создании экземпляра EnglishPoodle этот конструктор мы вызываем вручную */
+    public function __construct($name, $age) {
+        echo "creating " . __CLASS__ . "\n";
+    }
+
+    /* При удалении экземпляра EnglishPoodle этот деструктор мы вызываем вручную */
+    public function __destruct() {
+        echo "deleting " . __CLASS__. "\n";
+    }
+}
+
+class EnglishPoodle extends Poodle {
+
+    private $name;
+
+    /* При создании экземпляра EnglishPoodle этот конструктор будет вызван автоматически */
+    public function __construct($name) {
+
+        /* Ручной вызов конструктора родительского класса */
+        parent::__construct($name, 2);
+
+        /* Инициализация свойства в конструкторе */
+        $this->name = $name;
+        echo "creating " . __CLASS__. "\n";
+    }
+
+    /* При удалении экземпляра EnglishPoodle этот деструктор будет вызван автоматически */
+    public function __destruct() {
+        echo "deleting " . __CLASS__. "\n";
+
+        /* Ручной вызов деструктора родительского класса,
+         * должен быть прописан в самом конце,
+         * после остального кода, чтобы не убить еще нужные свойства
+         * раньше срока */
+        parent::__destruct();
+    }
 }

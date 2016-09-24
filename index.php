@@ -5,7 +5,7 @@ echo "<pre>";
 
 //Lessons\L_01_01\punctuation();
 //Lessons\L_01_02\tags();
-//Lessons\L_01_03\coments();
+//Lessons\L_01_03\comments();
 //Lessons\L_01_04\arithmeticOperators();
 //Lessons\L_01_06\assignmentOperators();
 //Lessons\L_01_07\comparisonOperators();
@@ -15,14 +15,23 @@ echo "<pre>";
 //Lessons\L_01_14\variablesReferencing();
 //Lessons\L_01_15\variablesInitializing();
 //Lessons\L_01_16\conditions();
+//Lessons\L_01_17\loops();
 //Lessons\L_01_20\otherConstructs();
 //Lessons\L_01_21_TO_23\constants();
 //Lessons\L_01_24\magicConstants();
 
+//Lessons\L_06_01\functionDefinition();
+//Lessons\L_06_02\declaringFunctions();
+//Lessons\L_06_03\functionArguments();
+//Lessons\L_06_04\returnValues();
+
+//Lessons\L_07_01\objects();
 //Lessons\L_07_02\creatingClassesAndInstantiation();
 //Lessons\L_07_03\inheritance();
 //Lessons\L_07_04\abstractClasses();
 //Lessons\L_07_05\interfaces();
-Lessons\L_07_07\constructorsAndDestructors();
+//Lessons\L_07_07\constructorsAndDestructors();
+//Lessons\L_07_08\properties();
+//Lessons\L_07_09\methods();
 
 echo "</pre>";
