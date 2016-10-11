@@ -22,9 +22,18 @@ echo "<pre>";
 //Lessons\L_01_21_TO_23\constants();
 //Lessons\L_01_24\magicConstants();
 
+//Lessons\L_03_01\singleAndDoubleQuotes();
+//Lessons\L_03_02\heredocSyntax();
+//Lessons\L_03_03\nowdocSyntax();
+//Lessons\L_03_04\subStrings();
+//Lessons\L_03_05\locatingStrings();
+//Lessons\L_03_07\countingStrings();
+//Lessons\L_03_09\stringsAndArrays();
+
 //Lessons\L_04_01\arrayDefinition();
 //Lessons\L_04_02\creatingArrays();
-Lessons\L_04_03\fillingArrays();
+//Lessons\L_04_03\fillingArrays();
+Lessons\L_04_05\addingElements();
 
 //Lessons\L_06_01\functionDefinition();
 //Lessons\L_06_02\declaringFunctions();
