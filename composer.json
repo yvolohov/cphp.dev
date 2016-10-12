@@ -9,6 +9,7 @@
       "Lessons/L_01_06.php",
       "Lessons/L_01_07.php",
       "Lessons/L_01_08.php",
+      "Lessons/L_01_10.php",
       "Lessons/L_01_11.php",
       "Lessons/L_01_13.php",
       "Lessons/L_01_14.php",
@@ -29,12 +30,15 @@
       "Lessons/L_04_02.php",
       "Lessons/L_04_03.php",
       "Lessons/L_04_05.php",
+      "Lessons/L_04_06.php",
+      "Lessons/L_04_07.php",
       "Lessons/L_06_01.php",
       "Lessons/L_06_02.php",
       "Lessons/L_06_03.php",
       "Lessons/L_06_04.php",
       "Lessons/L_06_05.php",
       "Lessons/L_06_06.php",
+      "Lessons/L_06_07.php",
       "Lessons/L_07_01.php",
       "Lessons/L_07_02.php",
       "Lessons/L_07_03.php",
@@ -42,7 +46,9 @@
       "Lessons/L_07_05.php",
       "Lessons/L_07_07.php",
       "Lessons/L_07_08.php",
-      "Lessons/L_07_09.php"
+      "Lessons/L_07_09.php",
+      "Lessons/L_07_14.php",
+      "Lessons/L_07_18.php"
     ]
   }
 }

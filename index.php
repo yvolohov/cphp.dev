@@ -12,6 +12,7 @@ echo "<pre>";
 //Lessons\L_01_06\assignmentOperators();
 //Lessons\L_01_07\comparisonOperators();
 //Lessons\L_01_08\stringOperators();
+//Lessons\L_01_10\logicalOperators();
 //Lessons\L_01_11\executionOperators();
 //Lessons\L_01_13\variablesNaming();
 //Lessons\L_01_14\variablesReferencing();
@@ -33,7 +34,9 @@ echo "<pre>";
 //Lessons\L_04_01\arrayDefinition();
 //Lessons\L_04_02\creatingArrays();
 //Lessons\L_04_03\fillingArrays();
-Lessons\L_04_05\addingElements();
+//Lessons\L_04_05\addingElements();
+//Lessons\L_04_06\removingElements();
+//Lessons\L_04_07\loopingArrays();
 
 //Lessons\L_06_01\functionDefinition();
 //Lessons\L_06_02\declaringFunctions();
@@ -41,6 +44,7 @@ Lessons\L_04_05\addingElements();
 //Lessons\L_06_04\returnValues();
 //Lessons\L_06_05\variableScope();
 //Lessons\L_06_06\variableFunctions();
+//Lessons\L_06_07\anonymousFunctions();
 
 //Lessons\L_07_01\objects();
 //Lessons\L_07_02\creatingClassesAndInstantiation();
@@ -50,5 +54,7 @@ Lessons\L_04_05\addingElements();
 //Lessons\L_07_07\constructorsAndDestructors();
 //Lessons\L_07_08\properties();
 //Lessons\L_07_09\methods();
+//Lessons\L_07_14\classConstants();
+//Lessons\L_07_18\generators();
 
 echo "</pre>";
