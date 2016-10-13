@@ -9,6 +9,7 @@ echo "<pre>";
 //Lessons\L_01_02\tags();
 //Lessons\L_01_03\comments();
 //Lessons\L_01_04\arithmeticOperators();
+//Lessons\L_01_05\bitwiseOperators();
 //Lessons\L_01_06\assignmentOperators();
 //Lessons\L_01_07\comparisonOperators();
 //Lessons\L_01_08\stringOperators();
@@ -19,6 +20,7 @@ echo "<pre>";
 //Lessons\L_01_15\variablesInitializing();
 //Lessons\L_01_16\conditions();
 //Lessons\L_01_17\loops();
+//Lessons\L_01_18\outputConstructs();
 //Lessons\L_01_20\otherConstructs();
 //Lessons\L_01_21_TO_23\constants();
 //Lessons\L_01_24\magicConstants();
@@ -56,5 +58,7 @@ echo "<pre>";
 //Lessons\L_07_09\methods();
 //Lessons\L_07_14\classConstants();
 //Lessons\L_07_18\generators();
+
+Lessons\L_08_03\SQL();
 
 echo "</pre>";
