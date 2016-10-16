@@ -19,11 +19,12 @@ function SQL()
         die($e->getMessage());
     }
 
-    echo "OK";
-
-    /*
     $stmt = $pdo->query(
-        ""
+        "CREATE TABLE IF NOT EXISTS books(
+            id int(11) UNSIGNED AUTO_INCREMENT NOT NULL,
+            name varchar(200) NOT NULL,
+            PRIMARY KEY(`id`)
+        ) ENGINE=InnoDB;"
     );
-    */
+
 }

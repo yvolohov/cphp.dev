@@ -30,7 +30,9 @@ echo "<pre>";
 //Lessons\L_03_03\nowdocSyntax();
 //Lessons\L_03_04\subStrings();
 //Lessons\L_03_05\locatingStrings();
+//Lessons\L_03_06\comparingStrings();
 //Lessons\L_03_07\countingStrings();
+//Lessons\L_03_08\phoneticFunctions();
 //Lessons\L_03_09\stringsAndArrays();
 
 //Lessons\L_04_01\arrayDefinition();
@@ -53,12 +55,15 @@ echo "<pre>";
 //Lessons\L_07_03\inheritance();
 //Lessons\L_07_04\abstractClasses();
 //Lessons\L_07_05\interfaces();
+//Lessons\L_07_06\exceptions();
 //Lessons\L_07_07\constructorsAndDestructors();
 //Lessons\L_07_08\properties();
 //Lessons\L_07_09\methods();
+//Lessons\L_07_10\staticPropertiesAndMethods();
+//Lessons\L_07_13\typeHinting();
 //Lessons\L_07_14\classConstants();
 //Lessons\L_07_18\generators();
 
-Lessons\L_08_03\SQL();
+//Lessons\L_08_03\SQL();
 
 echo "</pre>";
