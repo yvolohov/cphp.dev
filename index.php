@@ -34,13 +34,18 @@ echo "<pre>";
 //Lessons\L_03_07\countingStrings();
 //Lessons\L_03_08\phoneticFunctions();
 //Lessons\L_03_09\stringsAndArrays();
+//Lessons\L_03_10_TO_11\formattingOutput();
+//Lessons\L_03_12\regularExpressions();
+//Lessons\L_03_13\encodings();
 
 //Lessons\L_04_01\arrayDefinition();
 //Lessons\L_04_02\creatingArrays();
 //Lessons\L_04_03\fillingArrays();
+//Lessons\L_04_04\splittingArrays();
 //Lessons\L_04_05\addingElements();
 //Lessons\L_04_06\removingElements();
 //Lessons\L_04_07\loopingArrays();
+//Lessons\L_04_08\sortingArrays();
 
 //Lessons\L_06_01\functionDefinition();
 //Lessons\L_06_02\declaringFunctions();
@@ -64,6 +69,6 @@ echo "<pre>";
 //Lessons\L_07_14\classConstants();
 //Lessons\L_07_18\generators();
 
-//Lessons\L_08_03\SQL();
+Lessons\L_08_03_TO_09\SQL();
 
 echo "</pre>";
