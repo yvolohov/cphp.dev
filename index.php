@@ -68,7 +68,12 @@ echo "<pre>";
 //Lessons\L_07_13\typeHinting();
 //Lessons\L_07_14\classConstants();
 //Lessons\L_07_18\generators();
+//Lessons\L_07_19\traits();
 
-Lessons\L_08_03_TO_09\SQL();
+//Lessons\L_08_03_TO_09\SQL();
+
+//Lessons\P_Singleton\testSingleton();
+//Lessons\P_AbstractFactory\testAbstractFactory();
+Lessons\P_Builder\testBuilder();
 
 echo "</pre>";

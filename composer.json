@@ -61,7 +61,11 @@
       "Lessons/L_07_13.php",
       "Lessons/L_07_14.php",
       "Lessons/L_07_18.php",
-      "Lessons/L_08_03_TO_09.php"
+      "Lessons/L_07_19.php",
+      "Lessons/L_08_03_TO_09.php",
+      "Lessons/P_Singleton.php",
+      "Lessons/P_AbstractFactory.php",
+      "Lessons/P_Builder.php"
     ]
   }
 }
